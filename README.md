@@ -4,7 +4,7 @@
 
 Portafolio con una muestra de proyectos, códigos y mas enfocado al FullStack. 
 
-## Lenguajes y Tecnoloías que se usaron para este portafolio.
+### Lenguajes y Tecnoloías que se usaron para este portafolio.
 
 - HTML5
 - CSS3
