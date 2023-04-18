@@ -144,7 +144,7 @@ body{
 }
 
 .row .content{
-    min-width: 70%;
+    min-width: 75%;
 }
 
 .row .content span{
@@ -214,12 +214,14 @@ body{
     margin: 1rem;
 }
 
+img{
+    width: 50px;
+}
 
-
-/*.work .workbox .desc{
+.work .workbox .desc{
     width: 75%;
     color: #555;
-}*/
+}
 
 .work .workbox .desc h3{
     color: #f2f2f2;
