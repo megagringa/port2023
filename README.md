@@ -8,3 +8,4 @@ Portafolio con una muestra de proyectos, códigos y mas enfocado al FullStack.
 
 - HTML5
 - CSS3
+- JavaScript
