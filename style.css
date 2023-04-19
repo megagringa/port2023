@@ -9,6 +9,7 @@
     --dark-magenta:#e21b5a;
     --light-green:#61e2c2;
     --light-purple:#d9abff;
+    --blue-blue:#007ced;
 }
 
 *{
@@ -86,6 +87,10 @@ body{
     border-radius: 4px;
     padding: 5x 10px;
     margin: 8px;
+}
+
+.profile-details .intro h4 .escritura{
+    color: var(--blue-blue);
 }
 
 .profile-details .intro .social{
