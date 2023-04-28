@@ -1,3 +1,6 @@
+
+const toggleMenu = () => document.body.classList.toggle("open");
+
 const typed = new Typed('.typed',{
     strings:[
         '<i class="escritura">FullStack Developer</i>',

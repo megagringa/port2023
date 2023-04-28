@@ -11,9 +11,53 @@
     <!---CDN Font ICONS--->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+    
+
 </head>
 
 <body>
+
+    <!-- Burger Menu -->
+    <nav class="navbar">
+        <button onclick="toggleMenu()" class="burger"></button>
+        <button class="button">Inicio</button>
+        <div class="dropdowns">
+            <div class="dropdown">
+                <button class="button">
+                    Proyects
+                    <img src="images/chevron.svg" />
+                </button>
+                <div class="dropdown-menu">
+                    <button><a href="https://github.com/megagringa/eggrepository" target="_blank">Java_basico</a></button>
+                    <button><a href="https://github.com/megagringa/eggRepository2" target="_blank">Java_POO</a></button>
+                    <button><a href="https://github.com/megagringa/eggRepository3" target="_blank">Java_Colecciones</a></button>
+                </div>
+            </div>
+            <!--<div class="dropdown">
+                <button class="button">
+                    Developer
+                    <img src="images/chevron.svg" />
+                </button>
+                <div class="dropdown-menu">
+                    <button>FullStack</button>
+                    <button>Backend</button>
+                    <button>Frontend</button>
+                </div>
+            </div>-->
+            <div class="dropdown">
+                <button class="button">
+                    Olds-Ports
+                    <img src="images/chevron.svg" />
+                </button>
+                <div class="dropdown-menu">
+                    <button><a href="https://megagringa.github.io/Portafolio/index.html" >2019/20/21.</a></button>
+                    <button><a href="https://megagringa.github.io/Portafolio2/index.html">2022.</a></button>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
         <div class="profile-card">
             <div class="profile-epic">
@@ -38,7 +82,7 @@
                         </div>
                         <div class="content">
                             <span>Cell</span>
-                            <h5>3515118540</h5>
+                            <h5>+3515118540</h5>
                         </div>
                     </div>
                     <div class="row">
@@ -56,7 +100,7 @@
                         </div>
                         <div class="content">
                             <span>Pais</span>
-                            <h5>Argentina Córdoba</h5>
+                            <h5>Argentina: Córdoba</h5>
                         </div>
                     </div>
                     <div>
@@ -84,11 +128,13 @@
                 <div class="workbox">
                     <div class="icon">
                         <img src="images/java.svg" alt="">
-                        
+
 
                     </div>
                     <div class="desc">
-                       <a href="https://github.com/megagringa/eggrepository"><h3>Curso FullStack Egg.</h3></a> 
+                        <a href="https://github.com/megagringa/eggrepository">
+                            <h3>Curso FullStack Egg.</h3>
+                        </a>
                         <p>Actual curso en el que estoy estudiando y el contenido con el que nos estamos manejando es
                             con el lenguaje de programación java. Ejercicios básicos.(Terminados)</p>
                     </div>
@@ -99,22 +145,11 @@
                         <img src="images/java.svg" alt="">
                     </div>
                     <div class="desc">
-                        <a href="https://github.com/megagringa/eggRepository2"><h3>Curso FullStack Egg.</h3></a> 
-                        <p>Actual curso en el que estoy estudiando y el contenido con el que nos estamos manejando es
-                            con el lenguaje de programación java. Ejercicios medios.(No-Terminado)</p>
-                    </div>
-                </div>
-
-                <div class="workbox">
-                    <div class="icon">
-                        <img src="images/newspaper-solid.svg" alt="">
-                    </div>
-                    <div class="desc">
-                        <a href="https://megagringa.github.io/Portafolio/index.html" target="_blank">
-                            <h3> Portafolio 2019/20/21.</h3>
+                        <a href="https://github.com/megagringa/eggRepository2" target="_blank">
+                            <h3>Curso FullStack Egg.</h3>
                         </a>
-                        <p>Portafolio con una muestra de proyectos, códigos y mas. // Lenguajes y tecnologías:
-                            HTML, CSS, Javascript, Java, Node.js</p>
+                        <p>Actual curso en el que estoy estudiando y el contenido con el que nos estamos manejando es
+                            con el lenguaje de programación java con ejercicios en POO. Ejercicios medios.(Terminado)</p>
                     </div>
                 </div>
 
@@ -123,13 +158,24 @@
                         <img src="images/newspaper-solid.svg" alt="">
                     </div>
                     <div class="desc">
-                        <a href="https://megagringa.github.io/Portafolio2/index.html">
+                        <a href="https://github.com/megagringa/eggRepository3" target="_blank">
+                            <h3> Curso FullStack Egg</h3>
+                        </a>
+                        <p>Actual curso en el que estoy estudiando y el contenido con el que nos estamos manejando es
+                            con el lenguaje de programación java con ejercicios de colecciones. Ejercicios medios.(NO-Terminado)</p>
+                    </div>
+                </div>
+
+                <div class="workbox">
+                    <div class="icon">
+                        <img src="images/newspaper-solid.svg" alt="">
+                    </div>
+                    <div class="desc">
+                        <a href="https://megagringa.github.io/Portafolio2/index.html" target="_blank">
                             <h3>Portafolio2 2022.</h3>
                         </a>
-                        <p>Continuo con un nuevo portafolio ya que el anterior tiene demasiado contenido y tuve que
-                            darle un final en donde mas mostraba un front end con HTML, CSS , Javascript y Java
-                            // Portafolio 2019/20/21. En este sigo practicando, mejorando código y haciendo más
-                            proyectos.</p>
+                        <p>Portafolio con una muestra de proyectos, códigos y mas. // Lenguajes y tecnologías:
+                            Node.js</p>
                     </div>
                 </div>
             </div>
